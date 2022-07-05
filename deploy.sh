@@ -2,6 +2,7 @@
 
 # abort on errors
 set -e
+# npm install
 # 创建文件目录
 node docs/node_cmd/getfiles.js
 # build
