@@ -2,7 +2,6 @@
   "name": "dujun_vitepress",
   "version": "1.0.0",
   "description": "xraybot_20220701",
-  "main": "index.js",
   "author": "dujun",
   "license": "MIT",
   "scripts": {
