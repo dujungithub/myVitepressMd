@@ -4,6 +4,7 @@ const sideBarJson = require('../node_cmd/sidebar.json')
 module.exports = {
     title: "xraybot博客",
     description: "xraybot博客, 干货满满",
+    base:'/myVitepressMd/',
     markdown: {
         toc: {
             level: [1, 2, 3, 4],
