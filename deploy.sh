@@ -3,7 +3,7 @@
 # abort on errors
 set -e
 # 创建文件目录
-# node docs/node_cmd/getfiles.js
+node docs/node_cmd/getfiles.js
 # build
 npm run docs:build
 # 本地启动
@@ -22,6 +22,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git main
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-# git push -f git@github.com:dujungithub/myVitepressMd.git main:gh-pages
+git push -f git@github.com:dujungithub/myVitepressMd.git main:gh-pages
 
 cd -
