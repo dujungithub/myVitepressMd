@@ -3,7 +3,7 @@
 # abort on errors
 set -e
 # 创建文件目录
-node docs/node_cmd/getfiles.js
+# node docs/node_cmd/getfiles.js
 # build
 npm run docs:build
 # 本地启动
